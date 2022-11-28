@@ -9,7 +9,7 @@ const routes: Routes = [
 {path:'Home', title:'Home', component:HomeComponent},
 {path:'Boxes', title:'Boxes', component:BoxesComponent},
 {path:'Clearomizer', title:'Clearomizer', component:ClearomizerComponent},
-{path:'', redirectTo:'home', pathMatch:'full'},
+{path:'', redirectTo:'Home', pathMatch:'full'},
 {path:'**', title:'Erreur', component:ErrorComponent}
 ];
 

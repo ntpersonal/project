@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { BoxesComponent } from './boxes/boxes.component';
 import { ClearomizerComponent } from './clearomizer/clearomizer.component';
 import { ErrorComponent } from './error/error.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ErrorComponent } from './error/error.component';
     HomeComponent,
     BoxesComponent,
     ClearomizerComponent,
-    ErrorComponent
+    ErrorComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
