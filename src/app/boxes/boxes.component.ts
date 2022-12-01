@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./boxes.component.css']
 })
 export class BoxesComponent implements OnInit {
-
+  gridsize: number = 30;
   constructor() { }
 
   ngOnInit(): void {
-  }
-
+  
+   }
+  
 }
